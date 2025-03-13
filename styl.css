@@ -54,6 +54,7 @@
     position: relative;
     padding: 0 2vw;
   }
+ 
 
   nav {
     padding: 2vw 0vw;
@@ -72,6 +73,7 @@
     height: 30vh;
     width: auto;
   }
+  
 
   #nav-part2 {
     display: flex;
@@ -820,7 +822,7 @@
 
 
   }
-
+ 
   /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
   #footer-content{
     width: 100%;
@@ -832,6 +834,18 @@
     
     
     }
+    @media (max-width:600px) {
+      #footer-content {
+        min-height: 60vh;
+        width: auto;
+        font-size: 2vw;
+        
+  
+        padding: 0 0vw;
+      }
+    }
+   
+    
     #content{
         position: relative;
         width: 100%;
@@ -984,6 +998,17 @@
     border-left: 1px solid #aeadad;
     padding: 0 2vw;
   }
+  @media (max-width:600px) {
+    .swiper {
+      min-height: 60vh;
+      width: auto;
+      font-size: 2vw;
+      
+
+      padding: 0 0vw;
+    }
+  }
+  
   
 
   /* ...........................................................swiper code end ................................................*/
@@ -1129,6 +1154,16 @@
 
   }
  
+  @media (max-width:600px) {
+    #footer {
+      min-height: 50vh;
+      width: 100%;
+      font-size: 2vw;
+      
+
+      padding: 2vw 5vw;
+    }
+  }
 
 
 
