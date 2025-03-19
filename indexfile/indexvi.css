@@ -142,6 +142,28 @@ body {
 
 }
 
+#slider {
+  overflow: hidden;
+}
+
+#slider figure img {
+  width: 20%;
+
+  float: left;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  display: inline-block;
+  animation-timing-function: ease-in-out;
+  animation: 50s slidy infinite;
+  transition: 0.5s;
+}
 
 @keyframes slidy {
   0% {
@@ -182,28 +204,6 @@ body {
 }
 
 
-#slider {
-  overflow: hidden;
-}
-
-#slider figure img {
-  width: 20%;
-
-  float: left;
-}
-
-#slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  display: inline-block;
-  animation-timing-function: ease;
-  animation: 20s slidy infinite;
-  transition: 0.5s;
-}
 
 img {
 
